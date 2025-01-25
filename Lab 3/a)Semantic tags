@@ -102,12 +102,21 @@
         <div class="content">
             <h2>About Us</h2>
             <p>Welcome to our website! We are dedicated to providing the best services to our customers. Learn more about our journey and values. Here is a word with a <span style="color: blue;">highlight effect</span>.</p>
-            <figure>
-                <img src="/full (2).jpg" alt="Full Stack Development">
-                <figcaption>Our Team at Work</figcaption>
-            </figure>
+            <section>
+                <article>
+                    <h2>Understanding Semantic Tags</h2>
+                    <p>Semantic tags, such as <span class="highlight">article</span>, <span class="highlight">aside</span>, and <span class="highlight">figure</span>, provide meaning to your HTML structure.</p>
+                </article>
+                <article>
+                    <h2>Benefits of Semantic Tags</h2>
+                    <p>These tags enhance accessibility, improve SEO, and make the code easier to read and maintain.</p>
+                    <figure>
+                        <img src="/tags.jpg" alt="Example Image">
+                        <figcaption>semantic tags.</figcaption>
+                    </figure>
+                </article>
+            </section>
         </div>
-
         <!-- Sidebar Section -->
         <aside>
             <h3>Latest News</h3>
