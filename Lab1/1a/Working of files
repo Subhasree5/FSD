@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Experiment</title>
+    </head> 
+    <body>
+        <h1>HTML Lists Demonstration</h1>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>B.Tech</li>
+            <li>M.Tech</li>
+            <li>Ph.D</li>
+        </ul>
+        <h2>Ordered List</h2>
+        <h3>Branches</h3>
+        <ol>
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>IT</li>
+            <li>AI&ML</li>
+            <li>AIDS</li>
+            <li>Mech</li>
+            <li>Civil</li>
+        </ol>
+        <h2>Nested List</h2>
+        <h3>Sections</h3>
+        <ul>
+            <li> I year-C Block
+                <ul>
+                    <li>Section-A </li>
+                    <li>Section-B </li>
+                    <li>Section-C</li>
+                    <li>Section-D</li>
+                </ul>
+            </li>
+            <li> II year-B Block
+                <ul>
+                    <li>Section-A </li>
+                    <li>Section-B</li>
+                    <li>Section-C</li>
+                    <li>Section-D</li>
+                </ul>
+            </li>
+            <li> III year-A Block
+                <ul>
+                    <li>Section-A </li>
+                    <li>Section-B</li>
+                    <li>Section-C</li>
+                </ul>
+            </li>
+            <li> IV year-A Block
+                <ul>
+                    <li>Section-A </li>
+                    <li>Section-B</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Ordered List inside an Unordered List</h2>
+        <ul>
+            <li>programming Languages
+                <ol>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                </ol>
+            </li>
+            <li>Databases
+                <ol>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Definition List</h2>
+        <dl>HTML</dl>
+        <dd>HyperText Markup Language -the standard markup language for creating web pages</dd>
+        <dl>CSS</dl>
+        <dd>Cascading Style Sheeys -used for styling HTML elements</dd>
+        <dl>JavaScript</dl>
+        <dd>A programming language used to create dynamic and interactive web content</dd>
+    </body>
+</html>
