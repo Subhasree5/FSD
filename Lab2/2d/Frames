@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <iframe src="/full (2).jpg" height="450px" width="800px"></iframe><br>
+    <iframe src="mid.html" width="800px"></iframe><br>
+    <iframe src="frame2.html" width="800px"></iframe>
+   
+    
+</body>
+</html> 
+
+//mid.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> I frame image</h1>
+    <p>frames text</p>
+</body>
+</html>
+
+//frame2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com"> visit google.com</a>
+</body>
+</html>
