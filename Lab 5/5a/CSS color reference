@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Reference in CSS</title>
+    <link rel="stylesheet" href="5astyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><strong>CSS Color References</strong></h1>
+        
+        <p class="color-name"><strong>color name</strong>:Red</p>
+        <p class="hexadecimal"><strong>Hex Value</strong>:#1E90FF</p>
+        <p class="rgb"><strong>RGB value</strong>:rgb(34,139,34)</p>
+        <p class="rgba"><strong>RGBA value</strong>:rgba(255, 99, 71, 0.7)</p>
+        <p class="hsl"><strong>HSL value</strong>:hsl(240, 100%, 50%)</p>
+        <p class="hsla"><strong>HSLA value</strong>:hsla(120,60%,70%,0.6)</p>
+    </div>
+</body>
+</html>
+
+//5astyles.css
+/* General container styling */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color:white ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Color demonstrations */
+.color-name {
+    color:white;
+    background-color:red;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.hexadecimal {
+    color:white;
+    background-color:#1E90FF;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.rgb {
+    color:white;
+    background-color:rgb(34,139,34);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.rgba {
+    color:white;
+    background-color:rgba(255,99,71,0.7);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.hsl {
+    color:white;
+    background-color:hsl(240,100%,50%);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.hsla {
+    color:white;
+    background-color:hsla(120,60%,70%,0.6);
+    margin: 10px auto;
+    padding: 10px;
+}
