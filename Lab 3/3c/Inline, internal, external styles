@@ -51,3 +51,11 @@
     </div>
 </body>
 </html>
+
+//styles.css
+.external-style {
+    color: blue;
+    font-size: 20px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
