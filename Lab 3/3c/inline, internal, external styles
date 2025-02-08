@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Specification Formats</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Internal Styles -->
+    <style>
+        .internal-style {
+            color: green;
+            font-size: 18px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Style Specification Formats</h1>
+        
+        <!-- Inline Style -->
+        <p style="color: red; font-size: 16px; text-align: center;">
+            This paragraph uses <strong>inline styles</strong> to set color, font size, and alignment.
+        </p>
+
+        <!-- Internal Style -->
+        <p class="internal-style">
+            This paragraph uses <strong>internal styles</strong> defined in the <code>&lt;style&gt;</code>tag inside the <code>&lt;head&gt;</code>.
+        </p>
+
+        <!-- External Style -->
+        <p class="external-style">
+            This paragraph uses <strong>external styles</strong> defined in an external CSS file.
+        </p>
+    </div>
+</body>
+</html>
