@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding Audio and Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #0056b3;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        audio, video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Embedding Audio and Video</h1>
+
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="3b audio.opus" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Video Example</h2>
+        <video controls width="640" height="360">
+            <source src="media/video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+
+    <footer>
+        &copy; 2025 Your Name. All rights reserved.
+    </footer>
+</body>
+</html>
