@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Embedding Example</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Embedding Example</h1>
+
+    <p id="internal-text" style="text-align: center;">This text will change using internal JavaScript.</p>
+    <button onclick="changeInternalText()">Change Text (Internal JS)</button>
+
+    <p id="external-text" style="text-align: center;">This text will change using external JavaScript.</p>
+    <button id="external-button">Change Text (External JS)</button>
+
+    <!-- Internal JavaScript -->
+    <script>
+        function changeInternalText() {
+            document.getElementById("internal-text").textContent = "Text changed using Internal JavaScript!";
+        }
+    </script>
+
+    <!-- Link to External JavaScript -->
+    <script src="6a.js"></script>
+</body>
+</html>
+
+//6a.js
+// External JavaScript Example
+document.getElementById("external-button").addEventListener("click", function () {
+    document.getElementById("external-text").textContent = "Text changed using External JavaScript!";
+});
