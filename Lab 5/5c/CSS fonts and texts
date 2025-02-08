@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Font and Text Properties</title>
+  <link rel="stylesheet" href="5c.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <h1>CSS Font and Text Properties Demonstration</h1>
+
+  <p><span class="font-size">This text demonstrates <strong>font-size</strong></span>.</p>
+  <p><span class="font-weight">This text demonstrates <strong>font-weight</strong></span>.</p>
+  <p><span class="font-style">This text demonstrates <strong>font-style</strong></span>.</p>
+  <p><span class="text-decoration">This text demonstrates <strong>text-decoration</strong></span>.</p>
+  <p><span class="text-transformation"></span>THIS TEXT DEMONSTRATES <strong>TEXT-TRANSFORMATION</strong></span>.</p>
+  <p><span class="text-alignment">This text demonstrates <strong>text-alignment</strong></span>.</p>
+</body>
+</html>
+
+//5c.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .font-size {
+    font-size: 30px;
+  }
+  
+  .font-weight {
+    font-weight: bold;
+  }
+  
+  .font-style {
+    font-style: italic;
+  }
+  
+  .text-decoration {
+    text-decoration: underline;
+  }
+  
+  .text-transformation {
+    text-transform: uppercase;
+  }
+  
+  .text-alignment {
+    display: block; /* Ensures alignment works */
+    text-align: center;
+  }
