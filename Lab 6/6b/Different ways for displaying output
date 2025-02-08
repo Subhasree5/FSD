@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Methods in JavaScript</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #output {
+            margin: 20px auto;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Different Ways to Display Output in JavaScript</h1>
+    
+    <div id="output">Click the buttons to see different outputs.</div>
+
+    <button onclick="displayUsingAlert()">Display Using Alert</button>
+    <button onclick="displayUsingConsole()">Display Using Console</button>
+    <button onclick="displayUsingDocumentWrite()">Display Using document.write()</button>
+    <button onclick="displayUsingInnerHTML()">Display Using innerHTML</button>
+
+    <script>
+        // Display output using alert
+        function displayUsingAlert() {
+            alert("This is an alert box displaying output!");
+        }
+
+        // Display output using console
+        function displayUsingConsole() {
+            alert("Open the browser console (F12 or right-click > Inspect > Console) to see the output.");
+            console.log("This output is displayed in the browser's console.");
+        }
+
+        // Display output using document.write()
+        function displayUsingDocumentWrite() {
+            document.write("<h2>This output is displayed using document.write().</h2>");
+        }
+
+        // Display output using innerHTML
+        function displayUsingInnerHTML() {
+            document.getElementById("output").innerHTML = "This output is displayed using innerHTML!";
+        }
+    </script>
+</body>
+</html>
