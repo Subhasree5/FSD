@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Eligibility</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Voter Eligibility Check</h2>
+    <table id="voterTable">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Eligibility</th>
+        </tr>
+    </table>
+
+    <script>
+        // Prompt user for name and age
+        let name = prompt("Enter your name:");
+        let age = prompt("Enter your age:");
+
+        // Convert age to number
+        age = Number(age);
+
+        // Determine eligibility
+        let eligibility = (age >= 18) ? "Eligible to Vote" : "Not Eligible to Vote";
+
+        // Insert data into table
+        if (name && !isNaN(age) && age > 0) {
+            let table = document.getElementById("voterTable");
+            let row = table.insertRow(-1);
+            row.insertCell(0).innerText = name;
+            row.insertCell(1).innerText = age;
+            row.insertCell(2).innerText = eligibility;
+        } else {
+            alert("Invalid input. Please refresh and enter valid details.");
+        }
+    </script>
+
+</body>
+</html>
